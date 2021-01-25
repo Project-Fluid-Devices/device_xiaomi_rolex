@@ -1,17 +1,31 @@
 [
- { "repository": "Thagoo/platform_kernel_xiaomi_msm8917",
+ { 
+   "repository": "Thagoo/platform_kernel_xiaomi_msm8917",
    "target_path": "kernel/xiaomi/msm8917",
    "remote": "github",
-   "branch": "lineage-18.1"
+   "branch": "triton-storm-11",
+   "clone-depth": "1"
  },
- { "repository": "Foxtrot47/vendor_xiaomi_rolex",
+ { 
+   "repository": "Foxtrot47/vendor_xiaomi",
    "target_path": "vendor/xiaomi",
    "remote": "github",
-   "branch": "lineage-18.0"
+   "branch": "lineage-18.0",
+   "clone-depth": "1"
  },
- { "repository": "PixelExperience/hardware_qcom_wlan",
+ { 
+   "repository": "PixelExperience/hardware_qcom_wlan",
    "target_path": "hardware/qcom/wlan",
    "remote": "github",
-   "branch": "eleven"
+   "branch": "eleven",
+   "clone-depth": "1"
+ },
+ {
+   "clone-depth": "1",
+   "repository": "kdrag0n/proton-clang",
+   "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+   "remote": "github",
+   "branch": "master",
+   "clone-depth": "1"
  }
 ]
