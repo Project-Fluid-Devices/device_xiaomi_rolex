@@ -4,7 +4,7 @@
    "remote": "github",
    "branch": "lineage-18.1"
  },
- { "repository": "Flashmaniacs/vendor_xiaomi_rolex",
+ { "repository": "Foxtrot47/vendor_xiaomi_rolex",
    "target_path": "vendor/xiaomi",
    "remote": "github",
    "branch": "lineage-18.0"
