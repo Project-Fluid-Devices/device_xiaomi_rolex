@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rolex.mk
+    $(LOCAL_DIR)/fluid_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rolex-user \
-    aosp_rolex-userdebug
+    fluid_rolex-user \
+    fluid_rolex-userdebug
