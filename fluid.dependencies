@@ -15,17 +15,44 @@
  },
  { 
    "repository": "PixelExperience/hardware_qcom_wlan",
-   "target_path": "hardware/qcom/wlan",
+   "target_path": "hardware/qcom-caf/wlan",
    "remote": "github",
    "branch": "eleven",
    "clone-depth": "1"
  },
  {
-   "clone-depth": "1",
    "repository": "kdrag0n/proton-clang",
    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
    "remote": "github",
    "branch": "master",
+   "clone-depth": "1"
+ },
+ {
+   "repository": "crdroidandroid/android_hardware_qcom_media",
+   "target_path": "hardware/qcom-caf/msm8996/media",
+   "remote": "github",
+   "branch": "11.0-caf-msm8996",
+   "clone-depth": "1"
+ },
+ {
+   "repository": "crdroidandroid/android_hardware_qcom_display",
+   "target_path": "hardware/qcom-caf/msm8996/display",
+   "remote": "github",
+   "branch": "11.0-caf-msm8996",
+   "clone-depth": "1"
+ },
+ {
+   "repository": "crdroidandroid/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom-caf/msm8996/audio",
+   "remote": "github",
+   "branch": "11.0-caf-msm8996",
+   "clone-depth": "1"
+ },
+ {
+   "repository": "Foxtrot47/frameworks_native",
+   "target_path": "frameworks/native",
+   "remote": "github",
+   "branch": "11.0-caf-msm8996",
    "clone-depth": "1"
  }
 ]
